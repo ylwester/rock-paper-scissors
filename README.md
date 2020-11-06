@@ -4,11 +4,11 @@ Learning with TheOdinProject. Second challenge, simple text rock, paper scissors
 
 ## Getting Started
 
-`git clone git@github.com:ylwester/rock_paper_scissors`
+`git clone git@github.com:ylwester/rock-paper-scissors`
 
 ## Live version
 
-https://ylwester.github.io/rock_paper_scissors/
+https://ylwester.github.io/rock-paper-scissors/
 
 ## Authors
 
