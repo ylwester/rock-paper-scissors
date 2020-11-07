@@ -1,14 +1,14 @@
 # Google Homepage
 
-Learning with TheOdinProject. Second challenge, simple text rock, paper scissors game.
+Modified rock, paper, scissors game with simple UI
 
 ## Getting Started
 
-`git clone git@github.com:ylwester/rock-paper-scissors`
+`git clone git@github.com:ylwester/rock-paper-scissors-extended`
 
 ## Live version
 
-https://ylwester.github.io/rock-paper-scissors/
+https://ylwester.github.io/rock-paper-scissors-extended/
 
 ## Authors
 

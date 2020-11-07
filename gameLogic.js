@@ -7,6 +7,7 @@ function computerPlay () {
     return possibleChoices[Math.floor((Math.random() * possibleChoices.length))];
 }
 
+
 function playRound(playerSelection, computerSelection) {
     if (playerSelection.toLowerCase() === computerSelection) {
         return "Its a tie!";
@@ -34,11 +35,13 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game() {
+
     for(let roundPlayed = 0; roundPlayed <= 5; roundPlayed++) {
         const computerSelection = computerPlay();
-        let playerSelection = prompt("What do you choose? Rock, paper, scissors?")
         alert(playRound(playerSelection, computerSelection));
     }
+
+/*
     if (playerScore < computerScore) {
         alert("Sorry, you lost this time.\nYour score: " + playerScore + "\nComputer score: "+ computerScore)
     } else if (playerScore > computerScore) {
@@ -46,4 +49,6 @@ function game() {
     } else {
         alert("Tied game.")
     }
+
+     */
 }
